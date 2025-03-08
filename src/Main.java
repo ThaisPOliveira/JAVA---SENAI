@@ -9,6 +9,7 @@ public class Main {
         System.out.println(empresa.tipoEmpresa);
         System.out.println(empresa.enderecoEmpresa);
 
+
           System.out.println("O nome do funcionario é "+ empresa.nameFuncionario);
           System.out.println("Salario: " + empresa.valorSalarioFuncionario);
           System.out.println("Cargo: " + empresa.cargoFuncionario);
