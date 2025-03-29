@@ -22,7 +22,7 @@ public class Professor {
 
     public String getDisciplinaProfessor() {
         return disciplinaProfessor;
-    } 
+    }
 
 
     @Override
