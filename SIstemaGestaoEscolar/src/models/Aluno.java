@@ -22,6 +22,7 @@ public class Aluno {
     public String getMatriculaAluno() {
         return matriculaAluno;
     }
+
     @Override
     public String toString() {
         return "Aluno: " + nomeAluno + ", Idade: " +
