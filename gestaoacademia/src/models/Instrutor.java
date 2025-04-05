@@ -1,6 +1,6 @@
 package models;
 
-abstract class Instrutor extends Pessoa {
+public class Instrutor extends Pessoa {
     private String especialidadeInstrutor;
 
     public Instrutor(String nome, int idadePessoa, String especialidadeInstrutor) {

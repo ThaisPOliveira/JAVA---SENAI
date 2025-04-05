@@ -1,6 +1,6 @@
 package models;
 
-    public abstract class Cliente extends Pessoa{
+    public class Cliente extends Pessoa{
     private String planoCliente;
 
     public Cliente(String nome, int idadePessoa, String planoCliente) {
@@ -11,7 +11,7 @@ package models;
     public String getPlanoCliente() {
         return planoCliente;
     }
-    
+
     public String getString() {
         return "Cliente{" +
                 "nomePessoa='" + nomePessoa + '\'' +
