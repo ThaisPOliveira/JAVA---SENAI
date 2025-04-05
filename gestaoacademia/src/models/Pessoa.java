@@ -1,6 +1,6 @@
 package models;
 
-    abstract class Pessoa {
+abstract class Pessoa {
     protected String nomePessoa;
     protected int idadePessoa;
 

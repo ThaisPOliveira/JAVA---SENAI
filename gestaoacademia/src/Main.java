@@ -1,9 +1,13 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import models.Academia;
+import models.Cliente;
+
 public class Main {
     public static void main(String[] args) {
+        Academia academia = new Academia("FitAcadem");
 
+        Cliente cliente = new Cliente("Thais Linda", 56);
 
+        academia.adicionarPessoa(cliente);
 
     }
 }
