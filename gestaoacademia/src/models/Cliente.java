@@ -1,6 +1,6 @@
 package models;
 
-public class Cliente extends Pessoa{
+abstract class Cliente extends Pessoa{
 
     private String planoCliente;
 
