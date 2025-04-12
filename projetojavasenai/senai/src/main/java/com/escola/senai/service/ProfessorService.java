@@ -13,12 +13,12 @@ public class ProfessorService {
 @Autowired
     private ProfessorRepository professorRepository;
     //Inserir alunos (CREATE)
-    public Professor salvarAluno(Professor professor){
+    public Professor salvarProfessor(Professor professor){
         return professorRepository.save(professor);
     }
 
     //Buscar alunos (READ)
-    public List<Professor> buscarAluno(){
+    public List<Professor> buscarProfessor(){
         return professorRepository.findAll();
     }
 
@@ -40,7 +40,7 @@ public class ProfessorService {
     }
 
     //Metodo para buscar apenas um aluno pelo id
-    public Optional<Professor> buscarAlunoID(Long Id){
+    public Optional<Professor> buscarProfessorId(Long Id){
         return professorRepository.findById(Id);
     }
 
